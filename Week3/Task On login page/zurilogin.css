@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium';
+}
+main {
+    margin: 100px auto;
+}
+div.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3em;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2), 0px 6px 12px rgba(0,0,0,0.19);
+}
+.left_section {
+    background-image: url('images/signimg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input[type="text"], input[type="password"] {
+    border-radius: 20px;
+    height: 35px;
+    width: 90%;
+    margin: 8px 0px;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+button {
+    padding: 10px;
+    background-color: darkblue;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    margin-top: 17px;
+}
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+span.styled {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-align: center;
+}
